@@ -5,8 +5,8 @@
       <v-card>
         <v-card-title primary-title>
           <div>
-            <div class="headline">{{$.get('noChronicle')}}</div>
-            <span class="grey--text">{{$.get('needCreation')}}</span>
+            <div class="headline">{{$ml.get('noChronicle')}}</div>
+            <span class="grey--text">{{$ml.get('needCreation')}}</span>
           </div>
         </v-card-title>
         <v-card-actions class="justify-center">

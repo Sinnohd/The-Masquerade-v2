@@ -32,5 +32,5 @@ There are 4 services defined in docker compose:
 
 1. client: carbon image that hosts the client of the application based on VUE.js
 2. server: carbon image that hosts the API served via express.js
-3. server-database: mangoDb image
+3. server-database: MongoDB image
 4. proxy: nginx image that works as proxy between client and server

@@ -114,7 +114,7 @@ const getRandomCordinates = (lat) => {
 
 // main function
 (async () => {
-    let userId = env === "dev" ? "5d9f31495ede5b00273c3ae9" : "5dc1d5d8968abf0f0f4d7dbe";
+    let userId = env === "dev" ? "5e10a3fc65c05a005260068f" : "5e10a3fc65c05a005260068f";
     await dbConnect();
     try {
 

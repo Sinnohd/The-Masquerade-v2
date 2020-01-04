@@ -26,7 +26,7 @@ export default new MLCreate({
             playerLoginSubtitle: "Create your characters and join chronicles",
             loginButton: "Sign in with Google",
             publicStory: "Public Story",
-            privateStory: "Privite Story",
+            privateStory: "Private Story",
             sessionsTimeline: "Sessions Timeline",
             joinChronicle: "Join the Chronicle",
             pendingInvitation: "Pending Invitation",
