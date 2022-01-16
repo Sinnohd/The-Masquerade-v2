@@ -19,7 +19,7 @@
     "vue": "^2.6.6",
     "vue-cookies": "^1.5.12",
     "vue-multilanguage": "^4.0.9",
-    "vue-nprogress": "^0.1.5",
+    "vue-nprogress": "^0.2.0",
     "vue-router": "^3.0.1",
     "vue-sessionstorage": "^1.0.0",
     "vue-text-highlight": "^2.0.10",
