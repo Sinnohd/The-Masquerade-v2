@@ -1,4 +1,4 @@
-FROM node:carbon
+FROM node:12.22.9-bullseye-slim
 
 COPY ./docker/entrypoint.sh /entrypoint/
 
