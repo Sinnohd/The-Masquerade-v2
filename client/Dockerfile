@@ -1,4 +1,4 @@
-FROM node:12.22.9-bullseye-slim
+FROM node:12.22.10-bullseye-slim
 
 COPY ./docker/entrypoint.sh /entrypoint/
 
