@@ -31,7 +31,7 @@
     "mongodb": "^3.1.13",
     "mongoose": "^5.7.5",
     "nodemailer": "^6.1.1",
-    "passport": "^0.5.0",
+    "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "uuid": "^3.3.2",
     "vue": "^2.6.8"
