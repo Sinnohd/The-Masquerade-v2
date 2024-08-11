@@ -9,7 +9,9 @@
     "serve": "node ./dist/app.js",
     "build-sample-data": "rm -rf dist/dist-sample-data && babel . --out-dir ./dist/dist-sample-data --copy-files --ignore \"node_modules\",\"dist\"",
     "sample-data": "node dist/dist-sample-data/sample-data.js",
-    "generate-sample-data": "npm run build-sample-data && npm run sample-data"
+    "generate-sample-data": "npm run build-sample-data && npm run sample-data",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Nicola Zirilli",
   "license": "ISC",
@@ -34,7 +36,8 @@
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "uuid": "^3.3.2",
-    "vue": "^2.6.8"
+    "vue": "^2.6.8",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -44,5 +47,6 @@
     "nodemon": "^1.18.10",
     "lorem-ipsum": "^2.0.3",
     "prompts": "^2.2.1"
-  }
+  },
+  "snyk": true
 }
