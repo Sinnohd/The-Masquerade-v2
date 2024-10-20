@@ -34,7 +34,7 @@
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "uuid": "^3.3.2",
-    "vue": "^2.6.8"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
